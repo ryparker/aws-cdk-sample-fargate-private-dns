@@ -15,7 +15,7 @@
     "destroy": "cdk destroy"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.8.0"
+    "aws-cdk-lib": "2.13.0"
   },
   "devDependencies": {
     "@aws-cdk/assert": "2.8.0",
