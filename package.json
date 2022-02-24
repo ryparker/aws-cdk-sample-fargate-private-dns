@@ -1,5 +1,5 @@
 {
-  "name": "aws-cdk-sample",
+  "name": "aws-cdk-sample-fargate-private-dns",
   "version": "2.0.0",
   "main": "build/js/index.js",
   "repository": "https://ryparker@github.com/ryparker/aws-cdk-sample.git",
@@ -15,13 +15,12 @@
     "destroy": "cdk destroy"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.8.0"
+    "aws-cdk-lib": "latest",
+    "constructs": "latest"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "2.8.0",
-    "aws-cdk": "2.8.0",
-    "constructs": "10.0.32",
-    "rimraf": "^3.0.2",
-    "typescript": "^4.5.4"
+    "aws-cdk": "latest",
+    "rimraf": "latest",
+    "typescript": "latest"
   }
 }
